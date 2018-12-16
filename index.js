@@ -8,7 +8,7 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
-   obj[key]=value;
+   object[key]=value;
    return object;
   
 }
