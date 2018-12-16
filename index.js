@@ -8,7 +8,7 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 var obj = { prop: 1 }
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
-   obj[key]=value
+   obj[prop]=1
    return obj
   
 }
